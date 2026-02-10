@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/Haidary/Documents/Ausbildung/Firma/C/C/build",
+  "command": "C:\\msys64\\mingw64\\bin\\cc.exe -g -std=gnu11 -o CMakeFiles\\C.dir\\Tutorials\\Day_1\\hello.c.obj -c C:\\Users\\Haidary\\Documents\\Ausbildung\\Firma\\C\\C\\Tutorials\\Day_1\\hello.c",
+  "file": "C:/Users/Haidary/Documents/Ausbildung/Firma/C/C/Tutorials/Day_1/hello.c",
+  "output": "C:/Users/Haidary/Documents/Ausbildung/Firma/C/C/build/CMakeFiles/C.dir/Tutorials/Day_1/hello.c.obj"
+},
+{
+  "directory": "C:/Users/Haidary/Documents/Ausbildung/Firma/C/C/build",
+  "command": "C:\\msys64\\mingw64\\bin\\cc.exe -g -std=gnu11 -o CMakeFiles\\C.dir\\Tutorials\\Day_1\\main.c.obj -c C:\\Users\\Haidary\\Documents\\Ausbildung\\Firma\\C\\C\\Tutorials\\Day_1\\main.c",
+  "file": "C:/Users/Haidary/Documents/Ausbildung/Firma/C/C/Tutorials/Day_1/main.c",
+  "output": "C:/Users/Haidary/Documents/Ausbildung/Firma/C/C/build/CMakeFiles/C.dir/Tutorials/Day_1/main.c.obj"
+}
+]

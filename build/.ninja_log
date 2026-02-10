@@ -1,0 +1,12 @@
+# ninja log v7
+3	95	7924437960140833	CMakeFiles/C.dir/Tutorials/Day_1/main.c.obj	53283f6a2f1b4f21
+8	105	7924437960180829	CMakeFiles/C.dir/Tutorials/Day_1/hello.c.obj	66d1da5e556caaf3
+105	235	7924437961159966	C.exe	490ff3d1b6e395ff
+34	63	7924439749451879	C:/Users/Haidary/Documents/Ausbildung/Firma/C/C/build/CMakeFiles/cmake.verify_globs	923fd8588184b63e
+36	106	7924439728723459	CMakeFiles/C.dir/CMakeFiles/4.1.2/CompilerIdC/CMakeCCompilerId.c.obj	8b6073f404e291d3
+4	32	7924440681611612	C:/Users/Haidary/Documents/Ausbildung/Firma/C/C/build/CMakeFiles/cmake.verify_globs	923fd8588184b63e
+35	147	7924440681931612	CMakeFiles/C.dir/Tutorials/Day_1/hello.c.obj	71e3f575f3393e70
+41	149	7924440681991632	CMakeFiles/C.dir/Tutorials/Day_1/main.c.obj	877c72f2f51b3ecf
+149	267	7924440683065081	C.exe	d4484f1bd20c097
+34	62	7924441143807495	C:/Users/Haidary/Documents/Ausbildung/Firma/C/C/build/CMakeFiles/cmake.verify_globs	923fd8588184b63e
+17	39	7924441214508774	C:/Users/Haidary/Documents/Ausbildung/Firma/C/C/build/CMakeFiles/cmake.verify_globs	923fd8588184b63e
