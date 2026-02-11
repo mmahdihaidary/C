@@ -1,5 +1,7 @@
-cmake_minimum_required(VERSION 3.10)
+# set the minimum cmake version requirement
+cmake_minimum_required(VERSION 4.1.2)
 
+# set the project name
 project(C C)
 
 set(CMAKE_C_STANDARD 11)
@@ -32,9 +34,17 @@ target_compile_options(${PROJECT_NAME}
     PRIVATE -Wall -Wextra
 )
 
-# ---- Run target ----
-add_custom_target(run
-    COMMAND ${PROJECT_NAME}
-    DEPENDS ${PROJECT_NAME}
-    WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
-)
+# set the tracking files to compile
+# set(SOURCE_FILES 
+#         Tutorials/Day_1/main.c
+#         Tutorials/Day_1/hello.h       
+#         Tutorials/Day_1/hello.c)
+
+
+file(GLOB_RECURSE SOURCES
+        CONFIGURE_DEPENDS
+        "Tutorials/Day_1/*.c"
+        "Tutorials/Day_1/*.h")
+ 
+add_executable(${PROJECT_NAME}
+        ${SOURCES})
