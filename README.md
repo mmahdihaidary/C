@@ -15,26 +15,25 @@ cmake -B build -G Ninja && cmake --build build
 # Run the executable
 ./build/hello       # Linux/Mac
 .\build\hello.exe   # Windows
-
 ```
 
 ### Step-by-Step Instructions
 1. Generate build files
-```bash
 
+```bash
 cmake -B build -G Ninja
-This creates a build/ directory with Ninja build files.
+# This creates a build/ directory with Ninja build files.
+```
+
 2. Compile the project
-```
 
 ```bash
-
 cmake --build build
-Or navigate to build directory and use Ninja directly:
 ```
 
-```bash
+Or navigate to build directory and use Ninja directly:
 
+```bash
 cd build && ninja
 ```
 
@@ -47,7 +46,6 @@ The compiled binary will be in the build/ directory:
 
 ### Remove build directory and start fresh
 ```bash
-
 rm -rf build                    # Linux/Mac
 rm -r build -Force              # Windows PowerShell
 
