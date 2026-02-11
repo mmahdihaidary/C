@@ -3,6 +3,9 @@
 
 # Build Folder
 build/
+cmake-build-debug/*
+.idea/*
+.vscode/*
 
 # Object files
 *.o
