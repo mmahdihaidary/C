@@ -1,17 +1,17 @@
-# set the minimum cmake version requirement
 cmake_minimum_required(VERSION 4.1.2)
-
-# set the project name
-project(Day_1)
+project(hello C)
 
 set(CMAKE_C_STANDARD 11)
-set(CMAKE_C_STANDARD_REQUIRED ON)
 
+# add_subdirectory(lib)
+add_library(myLib STATIC 
+        lib/hello.c
+        lib/math/math.c)
 
-file(GLOB_RECURSE SOURCES
-        CONFIGURE_DEPENDS
-        "*.c"
-        "*.h")
- 
-add_executable(${PROJECT_NAME}
-        ${SOURCES})
+target_include_directories(myLib PUBLIC 
+        ${CMAKE_SOURCE_DIR}/lib
+)
+
+add_executable(${PROJECT_NAME} main.c)
+
+target_link_libraries(${PROJECT_NAME} PRIVATE myLib)  
