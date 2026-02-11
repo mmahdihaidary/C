@@ -1,0 +1,10 @@
+/home/mahdi/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/mahdi/CLionProjects/C -B /home/mahdi/CLionProjects/C/cmake-build-debug
+-- The C compiler identification is GNU 15.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (1.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/mahdi/CLionProjects/C/cmake-build-debug

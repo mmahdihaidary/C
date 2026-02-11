@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/C.dir/link.d CMakeFiles/C.dir/src/main.c.o -o C  libmathlib.a

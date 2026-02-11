@@ -1,0 +1,5 @@
+/home/mahdi/CLionProjects/C/cmake-build-debug/CMakeFiles/mathlib.dir
+/home/mahdi/CLionProjects/C/cmake-build-debug/CMakeFiles/C.dir
+/home/mahdi/CLionProjects/C/cmake-build-debug/CMakeFiles/run.dir
+/home/mahdi/CLionProjects/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mahdi/CLionProjects/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

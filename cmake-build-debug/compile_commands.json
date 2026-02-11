@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/mahdi/CLionProjects/C/cmake-build-debug",
+  "command": "/usr/bin/cc  -I/home/mahdi/CLionProjects/C/lib/math -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles/mathlib.dir/lib/math/mymath.c.o -c /home/mahdi/CLionProjects/C/lib/math/mymath.c",
+  "file": "/home/mahdi/CLionProjects/C/lib/math/mymath.c",
+  "output": "CMakeFiles/mathlib.dir/lib/math/mymath.c.o"
+},
+{
+  "directory": "/home/mahdi/CLionProjects/C/cmake-build-debug",
+  "command": "/usr/bin/cc  -I/home/mahdi/CLionProjects/C/lib/math -g -std=gnu11 -fdiagnostics-color=always -Wall -Wextra -o CMakeFiles/C.dir/src/main.c.o -c /home/mahdi/CLionProjects/C/src/main.c",
+  "file": "/home/mahdi/CLionProjects/C/src/main.c",
+  "output": "CMakeFiles/C.dir/src/main.c.o"
+}
+]
