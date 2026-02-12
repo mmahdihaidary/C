@@ -1,8 +1,8 @@
-CC == gcc 							# define the compiler
-CFLAGS = -Wall -Wextra -g			# compiler flags
-TARGET = hello						# project name
-SOURCE = main.c hello.c				# source files
-OBJECTS = $(SOURCE:.c=.o)			# object files
+CC = gcc 												# define the compiler
+CFLAGS = -Wall -Wextra -g								# compiler flags
+TARGET = hello											# project name
+SOURCES = src\main.c lib\hello.c lib\math\math.c		# source files
+OBJECTS = $(SOURCES:.c=.o)								# object files
 
 # OS detection
 ifeq ($(OS),Windows_NT)
@@ -12,7 +12,7 @@ ifeq ($(OS),Windows_NT)
 else
 	RM = rm -f
 	EXE =
-	RUN ./$(TARGET)
+	RUN = ./$(TARGET)
 endif
 
 # default target

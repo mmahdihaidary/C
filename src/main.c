@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "hello.h"
-#include "math/math.h"
+#include "../lib/hello.h"
+#include "../lib/math/math.h"
 
 
 int main(){
